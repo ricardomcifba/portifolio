@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    font-family: 'Koh Santepheap', cursive;
+}
+#topMenu{
+    display: flex;
+    background-color: grey;
+    margin: 0;
+}
+#topMenu li{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+#topMenu li:first-child {
+    margin-right: auto;
+}
+
+.fotoPerfil{
+    margin-top: 5px;
+    height:auto;
+    width:260;
+    height:260;
+    background-color: aqua;
+}
+
+.section1{
+    display: flex;
+    height: auto;
+    background-color: aqua;
+}
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+.section2{
+    display: flex;
+    height: 33vh;
+    background-color: rgb(164, 240, 190);
+}
+
+.imagemProj1{
+    width: 25vw;
+    height: 25vh;
+    padding-left:20px;
+}
+#tr{
+    margin-left: auto;
+    margin-right: auto;
+}
+#td li{
+    margin-left: 20px;
+}
+
+.projeto1{
+    color:rgb(48, 38, 58);
+}
+.section3{
+    display: flex;
+    height: 33vh;
+    background-color: aquamarine;
+}
+
+.projeto1{
+    margin-left: 20px;
+    color:rgb(48, 38, 58);
+}
+
+.rodape{
+    grid-area: rodape;
+    width: 100%;
+    max-width: auto;
+    margin: auto;
+    height:min-content;
+    background-color: rgb(212, 237, 252);
+    text-align: center;
+}
+.rodape h1{
+    text-align: center;
+}
+
+
+.rodape h4{
+    width: 70vw;
+    margin-left: 15vw;
+    text-align: center;
+}
+
+.redes{
+    justify-content: center;
+    display: flex;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #b41e3f;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
